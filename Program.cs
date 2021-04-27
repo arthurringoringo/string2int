@@ -16,7 +16,7 @@ namespace AppManString2IntTest
                 if (input[i] >= 48 && input[i] <= 57)
                 {
                     int number = input[i];
-                    // Convert to string with ASCII offset
+                    // Convert to coresponding number with ASCII offset
                     number = number - 48;
                     Console.Write(number);
 
